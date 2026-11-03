@@ -17,17 +17,18 @@ public class TestScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (currentHitPoints >= 1) ;
+        if (currentHitPoints >= 1)
         {
             isBamse = true;
-            {
-                if (isBamse) ;
+            if (isBamse)
+            { 
                 isPublicDomain = false;
                 characterName = "Bamse";
             }
         }
-        else;
+        else
         {
+            isBamse = false;
             characterName = "Nalle Puh";
             isPublicDomain = true;
         }
