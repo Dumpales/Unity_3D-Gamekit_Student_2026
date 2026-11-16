@@ -15411,6 +15411,7 @@ GameObject:
   - component: {fileID: 114166992771378430}
   - component: {fileID: 5510395900186259754}
   - component: {fileID: 3123433123474666989}
+  - component: {fileID: 1604156315026231090}
   m_Layer: 9
   m_Name: Ellen
   m_TagString: Player
@@ -15693,6 +15694,14 @@ MonoBehaviour:
   dataSettings:
     dataTag: PlayerHealth
     persistenceType: 3
+--- !u!81 &1604156315026231090
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991219941496362}
+  m_Enabled: 1
 --- !u!1 &1991646998098166
 GameObject:
   m_ObjectHideFlags: 0

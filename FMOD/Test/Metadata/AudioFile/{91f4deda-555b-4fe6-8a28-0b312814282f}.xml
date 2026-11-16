@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{91f4deda-555b-4fe6-8a28-0b312814282f}">
+		<property name="assetPath">
+			<value>RockBreak.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.3646041666666666</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{04c1fd7e-5542-4dc7-b0dd-f252059a66c8}</destination>
+		</relationship>
+	</object>
+</objects>

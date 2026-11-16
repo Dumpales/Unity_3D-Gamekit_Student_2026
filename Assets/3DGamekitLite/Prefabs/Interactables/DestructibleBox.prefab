@@ -908,13 +908,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4811107106480998}
+  - component: {fileID: 4347196537531117595}
   m_Layer: 0
   m_Name: Audio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4811107106480998
 Transform:
   m_ObjectHideFlags: 0
@@ -930,6 +931,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4330284469158708}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4347196537531117595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1478066460284010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1386017902
+      Data2: 1280939834
+      Data3: 415295876
+      Data4: -421152466
+    Path: event:/SFX_RockCrush
+  Event: 
+  EventPlayTrigger: 11
+  EventStopTrigger: 12
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1564851569484282
 GameObject:
   m_ObjectHideFlags: 0
@@ -12037,6 +12069,18 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 546944022404337853, guid: 89b47148c988be2419d9e2303b82fec2,
           type: 3}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1478066460284010}
         m_TargetAssemblyTypeName: 
         m_MethodName: SetActive
         m_Mode: 6
