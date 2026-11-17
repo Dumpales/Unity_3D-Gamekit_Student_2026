@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{529cf46e-973a-4c59-84e9-c0182eb9e5e6}">
 		<property name="name">
-			<value>SFX_RockDestroy</value>
+			<value>SFX_OneShot_RockDestroy</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -185,6 +185,7 @@
 	<object class="MixerBusEffectChain" id="{01f70b9d-0ea1-45a3-8c6c-13fa08b57d55}">
 		<relationship name="effects">
 			<destination>{fcec7e2c-79b1-4745-b497-293b1af48cd3}</destination>
+			<destination>{f45c882a-09ea-44d3-86e0-321f06e4b8d5}</destination>
 			<destination>{0772ef00-f82b-4492-a27c-891b2b7676f2}</destination>
 		</relationship>
 	</object>
@@ -199,6 +200,11 @@
 	<object class="MixerBusFader" id="{a173cba3-c59b-44aa-ac8e-1a811dc90266}" />
 	<object class="SpatialiserEffect" id="{65002bb5-568e-4d72-91c3-3f7300edbc2b}" />
 	<object class="MixerBusFader" id="{fcec7e2c-79b1-4745-b497-293b1af48cd3}" />
+	<object class="SpatialiserEffect" id="{f45c882a-09ea-44d3-86e0-321f06e4b8d5}">
+		<property name="userStereoSeparation">
+			<value>90</value>
+		</property>
+	</object>
 	<object class="CompressorEffect" id="{0772ef00-f82b-4492-a27c-891b2b7676f2}">
 		<relationship name="sidechains">
 			<destination>{4f8bd943-f8a3-47dd-a9f5-39c4a7161fc7}</destination>

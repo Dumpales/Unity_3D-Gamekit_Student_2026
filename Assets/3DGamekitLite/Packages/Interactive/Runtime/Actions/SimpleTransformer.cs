@@ -40,6 +40,7 @@ namespace Gamekit3D.GameCommands
         {
             activate = true;
             if (OnStartCommand != null) OnStartCommand.Send();
+            print("door is opening");
         }
 
         public void FixedUpdate()
@@ -86,6 +87,9 @@ namespace Gamekit3D.GameCommands
                 enabled = false;
                 if (OnStopCommand != null) OnStopCommand.Send();
                 direction *= -1;
+                
+                print("door is open");
+                
             }
         }
     }
