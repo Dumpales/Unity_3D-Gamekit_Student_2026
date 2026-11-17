@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{0da4cba6-0fdd-407c-b0e5-d1e8bc162be1}">
 		<property name="name">
-			<value>ENV_OneShot_Door</value>
+			<value>ENV_oneshot_Door</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
